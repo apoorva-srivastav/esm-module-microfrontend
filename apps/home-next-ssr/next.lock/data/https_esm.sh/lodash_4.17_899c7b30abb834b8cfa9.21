@@ -1,0 +1,3 @@
+/* esm.sh - lodash@4.17.21 */
+export * from "/v131/lodash@4.17.21/esnext/lodash.mjs";
+export { default } from "/v131/lodash@4.17.21/esnext/lodash.mjs";

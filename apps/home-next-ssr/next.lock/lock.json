@@ -1,0 +1,20 @@
+{
+  "https://esm.sh/date-fns": { "resolved": "https://esm.sh/date-fns@2.30.0", "integrity": "sha512-Vd0Hk0P8oQ+TEWsOZ7b/ruWCFWXYXXANQudSR+r/Jf8c12jLLw5HG014EfTZRFGm5ytLcVP6tiMExoeQo2tb/Q==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/lodash@4.17.21": { "integrity": "sha512-FOGjgORu8Eh3JzYIopLjBJUWlQyZycIwCdsfwm67PwohAmcnd2z/rWX+S2lAU5yWG5QmXzh+FIKIK2sw/CRrOw==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/react@18.2.0": { "integrity": "sha512-rPumWUbsOmOZBlZW5LXqMmwA5AI/CS4nIs2uaHsaScZf+GyhRjnBMC4O6EzxmfO/7ZzgzlYaSEUl5a1PSb7QLQ==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/stable/react@18.2.0/esnext/react.mjs": { "integrity": "sha512-ZMWjB4iKU6HwEbK4x92y6q/AhQgezZGVrpc/I7Hq00uFEmf4FPoKl3oTojncErXt793JUItACB5gf742elKTvQ==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/assertThisInitialized.js": { "integrity": "sha512-uZziqQykG+yfInH5yJfBXfAFM4j03KByc1FJ4b32aUDC4e8w6Wx7ttt4PUPECAUbpKlI+G+45vX3rfp9ciE4mA==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/classCallCheck.js": { "integrity": "sha512-gE3XcqhWT6tekMkCBPSZRN3osDPsUvrJjW4+dJSXvXbVnMCsqrZyUF7b1D70l8Irkt4lYeFFZ/BuaK8Im5X0mQ==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/createClass.js": { "integrity": "sha512-YrIBuJYTEWZZ8trZHlqzxDrQhLzPZMbVFZAZ10oWs7yX/YL062IOnnaLclzzjhZLjHjeSgRBZ02/dPCGT8mfWw==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/createForOfIteratorHelper.js": { "integrity": "sha512-udCOQqEarD242MUdM6gzmvA/WTVdZyKEztEY3dTO8LSJww9ORoKz2Cr/9JMLLnw6Dasr5aU5qALovg3A3TBZaQ==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/createSuper.js": { "integrity": "sha512-F0Mj1OBrFUw3dGGC9nzTxBSwqmXsUOx1P/LyEXNyxJYsItH4XEpXcZioIZyIAxckkPM3qaI2w8nG4PNCM8ZEWg==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/defineProperty.js": { "integrity": "sha512-u/4SKLkDnQqsJMtfFGAp7X2LzTmGv+z5plBSL8KMZ5YR3T+ST3f8XlqC51tbA3y0tEKJdJBPE8+LZTNuhDaIvw==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/inherits.js": { "integrity": "sha512-KWD1DXj4WtOU16dVwv3ih5GaIilvFpj1x9WSIOVGoikdFubQt5U+hxDvDoyRKb3k+LA0e1HMS5hSjbBCBuZZEA==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/typeof.js": { "integrity": "sha512-awdqmE2fBGNq1r9GORPyAjsAxGLeGjUMv7Xfqd7cBKxQ0eg+5jK1OrHwrLpnVAKLtiUmozdzehlQlsN8fZzj8g==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/date-fns@2.30.0/esnext/date-fns.mjs": { "integrity": "sha512-LH11gtwTzT9dcM7G3WY9UKYriyla90n67HBqt0K5zpajzIYYQv32SOkssbtG9BM/go1axQLf0aHrG1UTzRjYBA==", "contentType": "application/javascript; charset=utf-8" },
+  "https://esm.sh/v131/lodash@4.17.21/esnext/lodash.mjs": { "integrity": "sha512-t16DGPA2Qh+IEqmDiR94dgUh5TvL9VssB6EsGNigmsItcZ8RKoAX6qeMgXgtsbbqDMZw/F6BGab9Zw8ioEhoGw==", "contentType": "application/javascript; charset=utf-8" },
+  "https://ui-l.vercel.app/Button.mjs": { "integrity": "sha512-KmwAHBrUchXUj4L549V6a5RMfhVD638fhY+X4NBXKiATWnmDhURUfCrcOAVoI/C5WWmP62f1/98yD7zngAG2sA==", "contentType": "application/javascript; charset=utf-8" },
+  "https://ui-l.vercel.app/Footer.mjs": { "integrity": "sha512-s0KJNRBExQWGC/X+6+lL2nDHl7SQUZ35+izi8PuAZBjnp13laVY8zNAxVuqrleoarmzek2I1iELZiuEfpxu19g==", "contentType": "application/javascript; charset=utf-8" },
+  "https://ui-l.vercel.app/Header.mjs": { "integrity": "sha512-u9cm/1OMEvKRMAJ8p4bDAdAezYkhbF721LRuLJBSu8MxGrAcH6OxcyHV5Be1rldjdwX6TSIOaIx7B8J0PA6lgQ==", "contentType": "application/javascript; charset=utf-8" },
+  "version": 1
+}

@@ -1,0 +1,10 @@
+/* esm.sh - date-fns@2.30.0 */
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/typeof.js";
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/createForOfIteratorHelper.js";
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/assertThisInitialized.js";
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/classCallCheck.js";
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/inherits.js";
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/createClass.js";
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/createSuper.js";
+import "/v131/@babel/runtime@7.22.10/esnext/helpers/esm/defineProperty.js";
+export * from "/v131/date-fns@2.30.0/esnext/date-fns.mjs";

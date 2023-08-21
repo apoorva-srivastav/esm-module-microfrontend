@@ -1,0 +1,13 @@
+.footer{
+    background-color: #dde3ed;
+    color: #0b0e7a;
+    padding: 10px;
+}
+
+.footerList {
+    display: flex;
+}
+
+.footerListItem {
+    width: 50%;
+}

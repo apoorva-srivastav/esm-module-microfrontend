@@ -1,0 +1,3 @@
+/* esm.sh - esbuild bundle(@babel/runtime@7.22.10/helpers/esm/typeof) esnext production */
+var u=Object.defineProperty;var y=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})};var f={};y(f,{default:()=>o});function o(e){"@babel/helpers - typeof";return o=typeof Symbol=="function"&&typeof Symbol.iterator=="symbol"?function(t){return typeof t}:function(t){return t&&typeof Symbol=="function"&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},o(e)}var{default:n,...l}=f,m=n!==void 0?n:l;export{m as default};
+//# sourceMappingURL=typeof.js.map

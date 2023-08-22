@@ -8,6 +8,7 @@
     "declaration": false,
     "declarationMap": false,
     "incremental": true,
+    "jsx": "preserve",
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "noEmit": true,

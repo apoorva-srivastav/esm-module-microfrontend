@@ -1,3 +1,0 @@
-/* esm.sh - esbuild bundle(@babel/runtime@7.22.10/helpers/esm/classCallCheck) esnext production */
-var l=Object.defineProperty;var r=(t,e)=>{for(var o in e)l(t,o,{get:e[o],enumerable:!0})};var a={};r(a,{default:()=>n});function n(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}var{default:f,...s}=a,u=f!==void 0?f:s;export{u as default};
-//# sourceMappingURL=classCallCheck.js.map

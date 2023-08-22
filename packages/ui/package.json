@@ -11,9 +11,9 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --external react",
+    "build": "tsup src/index.js --format esm,cjs --external react",
     "clean": "rm -rf dist",
-    "dev": "tsup src/index.tsx --format esm,cjs --watch --external react",
+    "dev": "tsup src/index.js --format esm,cjs --watch --external react",
     "lint": "eslint \"src/**/*.ts*\"",
     "test": "jest"
   },

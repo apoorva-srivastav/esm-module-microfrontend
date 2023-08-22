@@ -7,9 +7,11 @@ import styles from './Button.module.css'
  *   @param {string} Text: The text to display on the button.
  *   @param {function} onClick: The callback function to be called when the button is clicked. Defaults to an empty function.
  */ 
-export const Button = ({text, onClick , disable, children, ...props}) => {
+export const Button = ({text, onClick , disable, children, type = 'primary', className, ...props}) => {
+  const classes = type === 'secondary' ? styles.buttonSecondary : ''
+  
   return (
-      <button className={styles.button} onClick={() => onClick()} disable={disable} {...props}>{text || children}</button>
+      <button className={`${styles.button} ${classes} ${className}`} onClick={() => onClick()} disable={disable} {...props}>{text || children}</button>
   );
 }
 

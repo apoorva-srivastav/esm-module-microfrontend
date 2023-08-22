@@ -8,11 +8,11 @@ export const useFetchProducts = () => {
   const [isLoading, setloading] = useState(true);
 
   //https://fakestoreapi.com/products
+  //'https://dummyjson.com/products') , res.data.products
   const fetchData = () => {
-      axios
-          .get('https://dummyjson.com/products')
+      axios.get('https://fakestoreapi.com/products')
           .then((res) => {
-              setData(res.data.products);
+              setData(res.data);
           })
           .catch((err) => {
               setError(err);

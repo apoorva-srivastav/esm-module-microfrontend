@@ -1,6 +1,8 @@
 .appComponent {
-  border: 1px solid black;
-  color: #7c3aed;
+  font-family: sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  color: #2d334a;
   padding: 10px;
   margin: 10px;
 }

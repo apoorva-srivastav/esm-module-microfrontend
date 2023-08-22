@@ -10,9 +10,9 @@ export const useFetchProducts = () => {
   //https://fakestoreapi.com/products
   const fetchData = () => {
       axios
-          .get('https://dummyjson.com/products')
+          .get('https://fakestoreapi.com/products')
           .then((res) => {
-              setData(res.data.products);
+              setData(res.data);
           })
           .catch((err) => {
               setError(err);

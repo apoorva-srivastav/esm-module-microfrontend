@@ -1,0 +1,68 @@
+/* src/Card/Card.module.css */
+.card {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #2d334a;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  border: 1px solid #dad8d8e3;
+  box-shadow:
+    1px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  min-width: 275px;
+  max-width: 475px;
+  padding: 10px;
+  height: 430px;
+}
+
+/* src/Footer/Footer.module.css */
+.footer {
+  font-family: sans-serif;
+  background-color: #ffd803;
+  color: #272343;
+  padding: 10px;
+}
+.footerList {
+  display: flex;
+}
+.footerListItem {
+  width: 50%;
+}
+
+/* src/Button/Button.module.css */
+.button {
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: #ffd803;
+  color: #272343;
+  border-radius: 20px;
+  border: 0;
+  padding: 0 20px;
+  margin: 10px;
+  min-height: 50px;
+}
+.buttonSecondary {
+  background-color: #fffffe;
+  border: 2px solid #ffd803;
+}
+
+/* src/Header/Header.module.css */
+.headerTab {
+  font-family: sans-serif;
+  background-color: #ffd803;
+  color: #272343;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+}
+.cart {
+  position: relative;
+}
+.counter {
+  position: absolute;
+  top: -15px;
+}

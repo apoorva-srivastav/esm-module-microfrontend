@@ -7,9 +7,9 @@ import { useState, useEffect } from 'react';
 import App from './_app';
 
 export const getServerSideProps = async () => {
-  const res = await fetch('https://dummyjson.com/products')
-  const {products} = await res.json()
-  return { props: { products } }
+  const res = await fetch('https://fakestoreapi.com/products')
+  const data = await res.json()
+  return { props: { products: data } }
 }
 
 export default function Home({products}) {

@@ -153,7 +153,7 @@ var CounterButton = () => {
 var _default4 = {};
 
 // src/Header/Header.jsx
-import { format } from "https://esm.sh/date-fns";
+import { format } from "date-fns";
 import { jsx as jsx6, jsxs as jsxs3 } from "react/jsx-runtime";
 var date = /* @__PURE__ */ new Date();
 var pattern = "d.M.yyyy HH:mm:ss.SSS 'GMT' XXX (z)";

@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import { format } from "https://esm.sh/date-fns";
+import { format } from "date-fns";
 
 const date = new Date();
 const pattern = "d.M.yyyy HH:mm:ss.SSS 'GMT' XXX (z)";

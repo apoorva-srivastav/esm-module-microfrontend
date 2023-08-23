@@ -189,7 +189,7 @@ var CounterButton = () => {
 var _default4 = {};
 
 // src/Header/Header.jsx
-var import_date_fns = require("https://esm.sh/date-fns");
+var import_date_fns = require("date-fns");
 var import_jsx_runtime6 = require("react/jsx-runtime");
 var date = /* @__PURE__ */ new Date();
 var pattern = "d.M.yyyy HH:mm:ss.SSS 'GMT' XXX (z)";

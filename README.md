@@ -1,54 +1,46 @@
-# Turborepo starter
+# Microfrontends with ES modules and CDN
 
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
-
-## What's inside?
-
-This Turborepo includes the following packages/apps:
+This repository demonstrates how we can build and use ES modules for a MicroFrontend architecture.
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+The repo is based on turborepo which provides a monorepo for microapps and it consists of: 
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+1. Apps:
+     1. home-vite-csr : a CSR shell app which assembles all the microapps and ui-library components.
+     2. product-csr: a CSR microapp which fetches and displays product list.
+     3. home-next-ssr: a SSR shell app.
+  
+2. UI Components - under packages/ui
 
-### Utilities
 
-This Turborepo has some additional tools already setup for you:
+## Description
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+The microApp and ui components library are built as es modules and hosted on CDN from where they get imported into the shell app. 
+Creating a MicroFrontend App with this method eliminates the need for maintaining any dependency list or shared library config as they are handled from the CDN and browser cache.
+
+This can be scaled and used with multiple miroApps being called in the host/shell app.
+
+### Develop
+
+To develop/run all apps and packages, run the following command:
+
+```
+npm i
+npm dev
+```
 
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-pnpm build
+npm build
 ```
 
-### Develop
+### CDN
 
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
+Currently the apps and es module builds are hosted using Vercel and you can find those in the import statements used in the host/shell apps.
 
 ### Remote Caching
 
@@ -57,7 +49,6 @@ Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
 npx turbo login
 ```
 
@@ -69,13 +60,3 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 npx turbo link
 ```
 
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)

@@ -26,6 +26,7 @@ This can be scaled and used with multiple miroApps being called in the host/shel
 To develop/run all apps and packages, run the following command:
 
 ```
+npm i
 npm dev
 ```
 

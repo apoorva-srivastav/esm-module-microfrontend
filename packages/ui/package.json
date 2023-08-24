@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite --port 5000",
     "serve": "node ./server/index",
-    "build": "node ./esm-vite.config.js && vite build",
+    "build": "node ./esm-vite.config.js && vite build && node ./server/index",
     "preview": "vite preview",
     "test": "vitest"
   },

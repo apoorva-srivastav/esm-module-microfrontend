@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run build && vite --port 4000",
-    "build": "vite build --config ./esm-vite.config.js && vite build",
+    "dev": "vite --port 4000",
+    "build": "vite build --config ./esm-vite.config.js && vite build && node ./server/index",
     "serve": "node ./server/index",
     "preview": "vite preview",
     "test": "vitest"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "vite-plugin-node-polyfills": "^0.11.2"

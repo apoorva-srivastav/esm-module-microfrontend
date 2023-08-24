@@ -16,8 +16,12 @@ The repo is based on turborepo which provides a monorepo for microapps and it co
 
 ## Description
 
-The microApp and ui components library are built as es modules and hosted on CDN from where they get imported into the shell app. 
-Creating a MicroFrontend App with this method eliminates the need for maintaining any dependency list or shared library config as they are handled from the CDN and browser cache.
+The microApp and ui components library are built as es modules and hosted on CDN from where they get imported into the shell app.
+
+ES build is very fast for building apps and using a CDN to host the esm build, it can be imported directly into Vite app(supported) and Next App(experimental).
+All the dependencies are fetched at runtime, so nothing gets bundled. Also CDN cache makes it possible to reduce the loading time.
+
+With each microapp being hosted and imported into the host app without the host maintaining a pre-defined, creating a MicroFrontend App with this method eliminates the need for maintaining any dependency list or shared library config as they are handled from the CDN and browser cache.
 
 This can be scaled and used with multiple miroApps being called in the host/shell app.
 

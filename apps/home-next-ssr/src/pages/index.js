@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import { ProductList } from '../components/ProductList';
-import {Header} from 'https://ui-l.vercel.app/Header.mjs'
-import {Footer} from 'https://ui-l.vercel.app/Footer.mjs'
+import {Header} from 'https://ui-l.vercel.app/Header@1.0.0.mjs'
+import {Footer} from 'https://ui-l.vercel.app/Footer@1.0.0.mjs'
 import { useState, useEffect } from 'react';
 import App from './_app';
 

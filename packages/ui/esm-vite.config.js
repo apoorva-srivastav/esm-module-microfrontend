@@ -1,7 +1,10 @@
 /* eslint-disable import/no-anonymous-default-export */
 import cssInject from "vite-plugin-css-injected-by-js";
 import { build } from 'vite';
+import metaData from './package.json' assert { type: 'json' };
 import fg from 'fast-glob'
+
+const version = metaData.version
 
 const entryPoints = [
   'src/components/**/**.jsx',
@@ -20,8 +23,12 @@ const entities = files.map((file) => {
 
 //build
 entities.forEach(async(entity) => {
+  const name = `[name]@${version}.mjs`;
    await build({
     configFile: false,
+    define: {
+      'version': version,
+    },
     plugins: [cssInject()],
     esbuild: {
           jsxInject: `import React from "https://esm.sh/react@18.2.0"`
@@ -36,7 +43,7 @@ entities.forEach(async(entity) => {
           {
             dir: 'public',
             format: 'esm',
-            entryFileNames: "[name].mjs",
+            entryFileNames: name,
           }],
       }
     },

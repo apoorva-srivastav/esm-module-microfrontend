@@ -1,6 +1,6 @@
 import ProductPage from "https://product-csr.vercel.app/microApp.bundle.mjs";
-import {Header} from 'https://ui-l.vercel.app/Header.mjs'
-import {Footer} from 'https://ui-l.vercel.app/Footer.mjs'
+import {Header} from 'https://ui-l.vercel.app/Header@1.0.0.mjs'
+import {Footer} from 'https://ui-l.vercel.app/Footer@1.0.0.mjs'
 import styles from "./App.module.css";
 import { useState } from "https://esm.sh/react@18.2.0";
 

@@ -7,9 +7,9 @@ This repository demonstrates how we can build and use ES modules for a MicroFron
 The repo is based on turborepo which provides a mono repo for micro-apps and it consists of: 
 
 1. Apps:
-     1. home-vite-csr : a CSR shell app that assembles all the microfrontend apps and ui-library components.
-     2. product-csr: a CSR microfrontend app that fetches and displays product list.
-     3. home-next-ssr: an SSR shell app.
+     1. home-vite-csr : a CSR shell app that assembles all the microfrontend apps and ui-library components. (https://home-vite-csr.vercel.app/)
+     2. product-csr: a CSR microfrontend app that fetches and displays product list. (https://product-csr.vercel.app )
+     3. home-next-ssr: an SSR shell app. (https://home-next-ssr-apoorva-srivastav.vercel.app/)
   
 2. UI Components - under packages/ui
 

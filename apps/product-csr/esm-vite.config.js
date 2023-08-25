@@ -1,6 +1,10 @@
 /* eslint-disable import/no-anonymous-default-export */
 import { defineConfig } from "vite";
 import cssInject from "vite-plugin-css-injected-by-js";
+import metaData from './package.json' assert { type: 'json' };
+
+const version = metaData.version
+const name = `[name]@${version}.mjs`;
 
 export default defineConfig({
   plugins: [cssInject()],
@@ -23,7 +27,7 @@ export default defineConfig({
       name:'microApp',
       dir: 'public',
       format: 'esm',
-      entryFileNames: "[name].bundle.mjs",
+      entryFileNames: name,
     }]
   },
     },

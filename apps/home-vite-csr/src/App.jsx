@@ -1,4 +1,4 @@
-import ProductPage from "https://product-csr.vercel.app/microApp.bundle.mjs";
+import ProductPage from "https://product-csr.vercel.app/microApp@1.0.0.mjs";
 import {Header} from 'https://ui-l.vercel.app/Header@1.0.0.mjs'
 import {Footer} from 'https://ui-l.vercel.app/Footer@1.0.0.mjs'
 import styles from "./App.module.css";

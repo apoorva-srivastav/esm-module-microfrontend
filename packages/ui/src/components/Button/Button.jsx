@@ -7,7 +7,7 @@ import styles from './Button.module.css'
  *   @param {string} Text: The text to display on the button.
  *   @param {function} onClick: The callback function to be called when the button is clicked. Defaults to an empty function.
  */ 
-export const Button = ({text = 'Submit', onClick , disable, children, type = 'primary', className, ...props}) => {
+export const Button = ({text = 'Submit', onClick , disable = false, children, type = 'primary', className, ...props}) => {
   const classes = type === 'secondary' ? styles.buttonSecondary : ''
   
   return (

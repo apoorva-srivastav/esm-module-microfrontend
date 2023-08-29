@@ -13,13 +13,9 @@
   "https://esm.sh/v131/@babel/runtime@7.22.10/esnext/helpers/esm/typeof.js": { "integrity": "sha512-awdqmE2fBGNq1r9GORPyAjsAxGLeGjUMv7Xfqd7cBKxQ0eg+5jK1OrHwrLpnVAKLtiUmozdzehlQlsN8fZzj8g==", "contentType": "application/javascript; charset=utf-8" },
   "https://esm.sh/v131/date-fns@2.30.0/esnext/date-fns.mjs": { "integrity": "sha512-LH11gtwTzT9dcM7G3WY9UKYriyla90n67HBqt0K5zpajzIYYQv32SOkssbtG9BM/go1axQLf0aHrG1UTzRjYBA==", "contentType": "application/javascript; charset=utf-8" },
   "https://esm.sh/v131/lodash@4.17.21/esnext/lodash.mjs": { "integrity": "sha512-t16DGPA2Qh+IEqmDiR94dgUh5TvL9VssB6EsGNigmsItcZ8RKoAX6qeMgXgtsbbqDMZw/F6BGab9Zw8ioEhoGw==", "contentType": "application/javascript; charset=utf-8" },
-  "https://ui-l.vercel.app/Button.mjs": { "integrity": "sha512-voYr1Qd3pmdbCtdvDavRVSAMZTX/DnyewkwKyWyEKIdQUU1LTUdkw0cy2vPWEdf2G2BDac3QgnS820hG5gmolg==", "contentType": "application/javascript; charset=utf-8" },
-  "https://ui-l.vercel.app/Button@1.0.0.mjs": { "integrity": "sha512-voYr1Qd3pmdbCtdvDavRVSAMZTX/DnyewkwKyWyEKIdQUU1LTUdkw0cy2vPWEdf2G2BDac3QgnS820hG5gmolg==", "contentType": "application/javascript; charset=utf-8" },
-  "https://ui-l.vercel.app/Card.mjs": { "integrity": "sha512-JUESFRxst9+KgnaQT1pKdBUA1471NKTfSBtrt0ycy1X9XKVLFDUP484knTnmvpClteVGQa0mp4cPYzfd2Y5AQg==", "contentType": "application/javascript; charset=utf-8" },
+  "https://ui-l.vercel.app/Button@1.0.0.mjs": { "integrity": "sha512-jcflXeH2lKs39ACiRS/svyyOIDW4/7V7y8Ky3sngSUjH3JOeTDn5xmGdIKqrGYFsT8ZktaYI4l7V9hfr/OB4MA==", "contentType": "application/javascript; charset=utf-8" },
   "https://ui-l.vercel.app/Card@1.0.0.mjs": { "integrity": "sha512-JUESFRxst9+KgnaQT1pKdBUA1471NKTfSBtrt0ycy1X9XKVLFDUP484knTnmvpClteVGQa0mp4cPYzfd2Y5AQg==", "contentType": "application/javascript; charset=utf-8" },
-  "https://ui-l.vercel.app/Footer.mjs": { "integrity": "sha512-5UOcmArei4ArlUSBk1NQkbRVGmIrNRDHGcaW4vc8EPX3GaXpVPYJx3mCERUQo0oPjfvN2jR7+hkK0RcDU7BplA==", "contentType": "application/javascript; charset=utf-8" },
-  "https://ui-l.vercel.app/Footer@1.0.0.mjs": { "integrity": "sha512-5UOcmArei4ArlUSBk1NQkbRVGmIrNRDHGcaW4vc8EPX3GaXpVPYJx3mCERUQo0oPjfvN2jR7+hkK0RcDU7BplA==", "contentType": "application/javascript; charset=utf-8" },
-  "https://ui-l.vercel.app/Header.mjs": { "integrity": "sha512-MmaYilCFFRhWtaSMXmmICpJtWh4lXorCA2AHeTLZsAAGApdUonlu2EuOzHrow5BdL6VcGOQBdagv5dm/5G4Cog==", "contentType": "application/javascript; charset=utf-8" },
+  "https://ui-l.vercel.app/Footer@1.0.0.mjs": { "integrity": "sha512-DppZHJ/2gv4qEbKsGkiJPAisF/b3DoGOdOzPWVM1jYPKQTPdBX7uDq3Hc6nD29EeA3yuHx6BGKg6OFmKkeOs1A==", "contentType": "application/javascript; charset=utf-8" },
   "https://ui-l.vercel.app/Header@1.0.0.mjs": { "integrity": "sha512-MmaYilCFFRhWtaSMXmmICpJtWh4lXorCA2AHeTLZsAAGApdUonlu2EuOzHrow5BdL6VcGOQBdagv5dm/5G4Cog==", "contentType": "application/javascript; charset=utf-8" },
   "version": 1
 }

@@ -10,12 +10,12 @@ import styles from "./Footer.module.css";
 export const Footer = ({className}) => {
   return (
     <div className={`${styles.footer} ${className}`}>
-      <p>
+      <div>
         Copyright © 2022
-        <p>
+        <div>
           Disclaimer: This is a sample disclaimer for footer.
-        </p>
-      </p>
+        </div>
+      </div>
       <div className={styles.footerList}>
       <ul className={styles.footerListItem}>
         <li>About Us</li>

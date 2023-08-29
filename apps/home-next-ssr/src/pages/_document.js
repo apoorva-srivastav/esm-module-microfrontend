@@ -2,11 +2,11 @@ import { Html, Head, Main, NextScript, Script } from 'next/document'
 
 export default function Document() {
   return (
-    <html lang="en">
+    <Html lang="en">
       <Head>
       {/* <Script id="importmap" type="importmap">
           {
-        `imports: {
+        `"imports": {
           "react": "https://esm.sh/lodash-es@4.17.21",
           "react-dom": "https://esm.sh/react-dom",
           "products": "https://product-csr.vercel.app",
@@ -23,6 +23,6 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
-    </html>
+    </Html>
   )
 }

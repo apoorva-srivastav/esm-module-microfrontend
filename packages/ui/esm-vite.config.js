@@ -24,6 +24,7 @@ const entities = files.map((file) => {
 //build
 entities.forEach(async(entity) => {
   const name = `[name]@${version}.mjs`;
+  const nameCjs = `[name]@${version}.cjs`;
    await build({
     configFile: false,
     define: {
@@ -44,6 +45,11 @@ entities.forEach(async(entity) => {
             dir: 'public',
             format: 'esm',
             entryFileNames: name,
+          },
+          {
+            dir: 'public',
+            format: 'cjs',
+            entryFileNames: nameCjs,
           }],
       }
     },

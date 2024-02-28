@@ -25,7 +25,6 @@ export default function Home({products}) {
       <main className={`${styles.main}`}>
         <CustomHeader count={count}/>
         <ProductList products={products} setCount={setCount}/>
-        <div>Hosted at : https://next-ssr-lac-chi.vercel.app </div>
         <App Component={Footer} pageProps={{className: styles.footer}}/>
       </main>
     </>

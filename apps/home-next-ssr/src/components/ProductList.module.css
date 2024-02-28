@@ -10,3 +10,10 @@
     margin: 10px 15px 0 0;
     padding: 7px;
   }
+
+  .description {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+  }

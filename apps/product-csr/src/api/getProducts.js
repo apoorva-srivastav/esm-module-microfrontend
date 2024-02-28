@@ -1,4 +1,4 @@
-import axios from "https://esm.sh/axios@1.4.0"
+import { get } from "https://esm.sh/axios@1.4.0"
 import { useState, useEffect } from "https://esm.sh/react@18.2.0"
 
 
@@ -10,7 +10,7 @@ export const useFetchProducts = () => {
   //https://fakestoreapi.com/products
   //'https://dummyjson.com/products') , res.data.products
   const fetchData = () => {
-      axios.get('https://fakestoreapi.com/products')
+      get('https://fakestoreapi.com/products')
           .then((res) => {
               setData(res.data);
           })

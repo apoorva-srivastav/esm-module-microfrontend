@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "https://ui-l.vercel.app/Button@1.0.0.mjs";
 import _ from "https://esm.sh/lodash@4.17.21"
 import styles from "./ProductList.module.css";
-import { Card } from "https://ui-l.vercel.app/Card@1.0.0.mjs";
+import { Card } from "https://ui-zeta-three.vercel.app/Card@1.0.0.mjs";
 
 const addProductState = ["Add to cart", "Added to cart"];
 
@@ -15,7 +15,7 @@ export const ProductDetail = ({ product, setCount = _.noop }) => {
       <Card>
         <h3>{product.title}</h3>
         <img src={product.image} className={`card ${styles.image}`} height="200px" width="250px" />
-        <p className={styles.desc}>{product.description}</p>
+        <p className={styles.description}>{product.description}</p>
         <div className={styles.cardFooter}>
         <Button
          className={styles.button}

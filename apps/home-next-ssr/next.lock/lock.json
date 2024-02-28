@@ -17,5 +17,6 @@
   "https://ui-l.vercel.app/Card@1.0.0.mjs": { "integrity": "sha512-JUESFRxst9+KgnaQT1pKdBUA1471NKTfSBtrt0ycy1X9XKVLFDUP484knTnmvpClteVGQa0mp4cPYzfd2Y5AQg==", "contentType": "application/javascript; charset=utf-8" },
   "https://ui-l.vercel.app/Footer@1.0.0.mjs": { "integrity": "sha512-DppZHJ/2gv4qEbKsGkiJPAisF/b3DoGOdOzPWVM1jYPKQTPdBX7uDq3Hc6nD29EeA3yuHx6BGKg6OFmKkeOs1A==", "contentType": "application/javascript; charset=utf-8" },
   "https://ui-l.vercel.app/Header@1.0.0.mjs": { "integrity": "sha512-MmaYilCFFRhWtaSMXmmICpJtWh4lXorCA2AHeTLZsAAGApdUonlu2EuOzHrow5BdL6VcGOQBdagv5dm/5G4Cog==", "contentType": "application/javascript; charset=utf-8" },
+  "https://ui-zeta-three.vercel.app/Card@1.0.0.mjs": { "integrity": "sha512-CAY48hbdYuG0kwOcW6WjKDUwOSsxcyXm/RJIdF6CiPg9zjp1Lp6JOe0EEepcIrQvrhvkw+wlZgZ+VTRCvaQz9A==", "contentType": "application/javascript; charset=utf-8" },
   "version": 1
 }

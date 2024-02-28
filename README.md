@@ -8,7 +8,7 @@ The repo is based on turborepo which provides a mono repo for micro-apps and it 
 
 1. Apps:
      1. [home-vite-csr](https://home-vite-csr.vercel.app/) : a CSR shell app (stiching layer) that assembles all the microfrontend apps and ui-library components.
-     2. [home-next-ssr](https://home-next-ssr-apoorva-srivastav.vercel.app/): an SSR shell app (stiching layer).
+     2. [home-next-ssr](https://home-next-ssr.vercel.app/): an SSR shell app (stiching layer).
      3. [product-csr](https://product-csr.vercel.app): a CSR microfrontend app that fetches and displays product list.
      
   
@@ -34,7 +34,7 @@ To develop/run all apps and packages, run the following command:
 
 ```
 npm i
-npm dev
+npm run dev
 ```
 
 ### Build

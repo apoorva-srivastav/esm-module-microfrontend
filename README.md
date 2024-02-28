@@ -59,5 +59,10 @@ npm build
 
  and then doing 
  ```
- npm serve
+ vercel 
  ```
+or
+
+```
+vercel --prod
+```
